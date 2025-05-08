@@ -24,7 +24,7 @@ O projeto como ja foi falado é um portifólio para melhor apresentação e most
 
 ### Captura de Tela
 
-![](./Captura de tela 2025-05-07 214006.png)
+![](./-.png)
 
 ### Links
 
