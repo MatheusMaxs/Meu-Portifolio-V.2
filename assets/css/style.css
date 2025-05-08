@@ -1,0 +1,313 @@
+body {
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+     'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*navbar*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo {
+    width: 60px;
+    height: auto;
+}
+.logo:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+    width: 200px;
+    gap: 10px;
+}
+.nav-links a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+.nav-links a:hover {
+    cursor: pointer;
+    /* vou colocar nada nao '-'
+    só pq tentei colocar o tranform: scale
+    porem nao foi, nao sei oq acoonteceu */
+}
+.li1 {
+    color: #7b00ad;
+    /*estilização do link de forma diferente*/
+}
+.hr1 {
+    color: #7b00ad;
+    background-color: #7b00ad;
+    width: 97%;
+    border-radius: 20px;
+    height: 2px;
+    border: 0
+}
+/*navbar fim*/
+
+/*---------------------------------------------------*/
+
+/*home*/
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+    margin: 15px 20px 10px 20px;
+}
+.container h1 {
+    font-size: 60px;
+}
+h1, p {
+    margin: 5px 0;
+}
+.container .h-1 {
+    color: #7b00ad;
+}
+.container p {
+    font-size: 30px;
+    margin: 10px 0;
+}
+.desc-1 {
+    color: #7b00ad;
+    font-size: 35px;
+}
+.bt-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #7b00ad;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.bt-nav a {
+    color: inherit;
+    text-decoration: none;
+}
+.bt-nav:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+.img-home {
+    width: 300px;
+    height: auto;
+    border: #7b00ad 2.5px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.img-home:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+/*home fim*/
+
+/*---------------------------------------------------*/
+
+/*about*/
+.container-sobre {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 100px 0;
+    flex-direction: column;
+    padding: 0 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.container-sobre h1 {
+    font-size: 60px;
+    color: #7b00ad;
+    margin: 0 0 40px 0;
+}
+.container-sobre p {
+    font-size: 30px;
+    margin: 10px 0;
+}
+/*container-sobre fim*/
+
+/*---------------------------------------------------*/
+
+/*projetos*/
+.container-projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+    margin: 100px 20px 50px 20px;
+    border: #7b00ad 2.5px solid;
+}
+.container-projetos-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.container-projetos-text h1 {
+    font-size: 60px;
+    color: #7b00ad;
+    margin: 0 0 40px 0;
+    margin-top: -40px;
+    background-color: black;
+}
+.container-projetos-text p {
+    font-size: 30px;
+    margin: 10px 0;
+}
+.img-projetos {
+    width: 400px;
+    height: auto;
+    border: #7b00ad 2.5px solid;
+    border-radius: 10px 10px 0 0;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.container-projetos-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.projeto1:hover {
+    cursor: pointer;
+    transform: scale(1.025);
+    transition: transform 0.5s ease;
+}
+.projeto2:hover {
+    cursor: pointer;
+    transform: scale(1.025);
+    transition: transform 0.5s ease;
+}
+.projeto3:hover {
+    cursor: pointer;
+    transform: scale(1.025);
+    transition: transform 0.5s ease;
+}
+.bnt-p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7b00ad;
+    border: #7b00ad 2.5px solid;
+    background-color: transparent;
+    border-radius: 0 0 10px 10px;
+    padding: 5px 10px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 405px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+/*projetos fim*/
+
+/*---------------------------------------------------*/
+
+/*contato*/
+.container-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+    margin: 100px 20px 50px 20px;
+}
+.container-contato h1 {
+    font-size: 60px;
+    color: #7b00ad;
+    margin: 0 0 40px 0;
+}
+.container-contato p {
+    font-size: 30px;
+    margin: 10px 0;
+}
+.container-contato-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 30px;
+}
+.img-contato {
+    width: 400px;
+    height: auto;
+    border: #7b00ad 2.5px solid;
+    border-radius: 0 10px 0 10px;
+    margin-top: 10px;
+}
+.img-contato:hover {
+    cursor: pointer;
+    transform: scale(1.025);
+    transition: transform 0.5s ease;
+}
+.img-contato-linkedin:hover {
+    cursor: pointer;
+    transform: scale(1.025);
+    transition: transform 0.5s ease;
+}
+.img-contato-youtube:hover {
+    cursor: pointer;
+    transform: scale(1.025);
+    transition: transform 0.5s ease;
+}
+.img-contato-linkedin {
+    width: 400px;
+    height: 228px;
+    border: #7b00ad 2.5px solid;
+    border-radius: 0 10px 0 10px;
+    margin-top: 10px;
+}
+.img-contato-youtube {
+    width: 400px;
+    height: 228px;
+    border: #7b00ad 2.5px solid;
+    border-radius: 0 10px 0 10px;
+    margin-top: 10px;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #000000;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #7b00ad;
+    border-radius: 6px;
+    border: 3px solid #000000;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #7b00ad;
+  }
+  
